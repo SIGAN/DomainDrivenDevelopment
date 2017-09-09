@@ -1,0 +1,8 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard1.6</TargetFramework>
+  </PropertyGroup>
+
+  <Import Project="..\Platform.Core\Platform.Core.projitems" Label="Shared" Condition="Exists('..\Platform.Core\Platform.Core.projitems')" />
+</Project>

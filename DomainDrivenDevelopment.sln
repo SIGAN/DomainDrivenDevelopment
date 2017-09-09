@@ -1,0 +1,24 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Platform", "Platform\Platform.csproj", "{09F00327-D482-42D3-A331-0D87FAFC5EE5}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "Platform.Core", "Platform.Core\Platform.Core.shproj", "{88CE6513-BA1A-42E8-B5FE-0839A7F43E06}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{09F00327-D482-42D3-A331-0D87FAFC5EE5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{09F00327-D482-42D3-A331-0D87FAFC5EE5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{09F00327-D482-42D3-A331-0D87FAFC5EE5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{09F00327-D482-42D3-A331-0D87FAFC5EE5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		Policies = $0
+		$0.StandardHeader = $1
+		$1.Text = @****************************************\n* File:\t\t${FileName}\n* Author:\t${AuthorName}\n* Date:\t\t${Date}\n****************************************
+	EndGlobalSection
+EndGlobal
